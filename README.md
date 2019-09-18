@@ -15,6 +15,9 @@
 			"Compare and pull request"
 12. REMOTE:	when someone approves the changes, they will merge it to the master.
 
+
+> Be careful with the following. This is NOT best practice!
+
 You can push to master as well, instead of your branch, so be careful. If you want to push to master, change line 10 above to this:
 `git push origin master`
 
