@@ -7,7 +7,7 @@
 5. LOCAL:  	create new branch:  `git checkout -b <local-branch-name>`
 6. LOCAL:  	edit/create/delete the file(s), etc
 7. LOCAL:  	add the changes:  git add .
-8. LOCAL: 	git commit -m " <message here>"
+8. LOCAL: 	`git commit -m " <message here>"`
 9. LOCAL:  	`git push origin <local-branch-name>`
 10. REMOTE: go to github, to the repository, and then to  your branch.
 			on your branch, click the green button that says
