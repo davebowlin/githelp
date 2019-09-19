@@ -19,6 +19,7 @@
 > Be careful with the following. This is NOT best practice!
 
 You can push to master as well, instead of your branch, so be careful. If you want to push to master, change line 10 above to this:
+
 `git push origin master`
 
 BE CAREFUL doing this, it's always best practice to push to a branch instead, and then it can be merged to master after it's reviewed.
