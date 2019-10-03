@@ -9,12 +9,13 @@
 7. 	LOCAL:  	edit/create/delete the file(s), etc
 8. 	LOCAL:  	add the changes to the branch:  `git add .`
 9. 	LOCAL: 		`git commit -m " <message here>"`
-10. 	LOCAL:		`git push origin <local-branch-name>`
-11. 	REMOTE:		go to github, to the repository, and then to  your branch.
-			on your branch, click the green button that says
-			"Compare and pull request"
-12. 	REMOTE:	when someone approves the changes, they will merge it to the master.
-13. 	To copy the current remote branch to your local machine (which will overwrite what's there), do this:
+10. LOCAL:		`git push origin <local-branch-name>`
+11. REMOTE:		go to github, to the repository, and then to  your branch.
+				on your branch, click the green button that says
+				"Compare and pull request"
+12.	REMOTE:	when someone approves the changes, they will merge it to the master.
+13. To copy the current remote branch to your local machine (which will overwrite what's there), do this:
+
  	`git pull origin <remote branch name>`
  	This is handy to keep from deleting and cloning local repos.
 
